@@ -1,3 +1,10 @@
-'name': 'ROOT'
-'prerelease': '-SNAPSHOT'
-'version': '6.0.0'
+name: ROOT
+version: true
+ext:
+  collector:
+    run:
+      command: gradlew --no-scan :spring-security-docs:generateAntora
+      #command: gradlew --console rich --no-scan :spring-security-docs:generateAntora
+      local: true
+    scan:
+      dir: ./build/generateAntora

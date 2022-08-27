@@ -6,8 +6,12 @@ plugins {
 apply plugin: 'io.spring.convention.docs'
 apply plugin: 'java'
 
+node {
+    version = "16.17.0"
+}
+
 antora {
-	antoraVersion = "3.0.0"
+	antoraVersion = "3.1.0"
 	arguments = ["--fetch", "--stacktrace"]
 }
 
@@ -42,8 +46,11 @@ tasks.register("generateAntora") {
 		def outputFile = new File("$buildDir/generateAntora/antora.yml")
 		outputFile.getParentFile().mkdirs()
 		outputFile.createNewFile()
-		def antoraYmlText = file("antora.yml").getText()
-		outputFile.setText("""$antoraYmlText
+        def versionSegments = project.version.split('-', 2)
+        versionSegments[1] = versionSegments[1] ? "'-${versionSegments[1]}'" : 'false'
+		outputFile.setText("""name: ROOT
+version: '${versionSegments[0]}'
+prerelease: ${versionSegments[1]}
 title: Spring Security
 start_page: ROOT:index.adoc
 nav:
