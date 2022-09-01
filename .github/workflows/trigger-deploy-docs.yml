@@ -1,0 +1,16 @@
+name: Trigger Deploy Docs
+on:
+  repository_dispatch:
+    types: request-build-reference # legacy
+  schedule:
+  - cron: '0 10 * * *' # Once per day at 10am UTC
+  workflow_dispatch:
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    if: github.repository_owner == 'spring-projects' || github.repository_owner == 'opendevise'
+    steps:
+    - name: Dispatch
+      run: gh workflow run deploy-docs.yml --ref docs-build
