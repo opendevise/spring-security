@@ -1,0 +1,2383 @@
+{
+  "$id": "https://schemas.antora.org/site-manifest/1-0-0/draft-01",
+  "generated": "2022-11-08T04:00:23.247Z",
+  "url": "https://docs.spring.io/spring-security/reference",
+  "components": {
+    "ROOT": {
+      "title": "Spring Security",
+      "latest": "5.7.5",
+      "versions": {
+        "6.0.0": {
+          "prerelease": true,
+          "displayVersion": "6.0.0-SNAPSHOT",
+          "url": "/6.0/index.html",
+          "pages": [
+            {
+              "path": "index.adoc",
+              "url": "/6.0/index.html",
+              "title": "Spring Security"
+            },
+            {
+              "path": "community.adoc",
+              "url": "/6.0/community.html",
+              "title": "Spring Security Community"
+            },
+            {
+              "path": "features/index.adoc",
+              "url": "/6.0/features/index.html",
+              "title": "Features"
+            },
+            {
+              "path": "features/authentication/index.adoc",
+              "url": "/6.0/features/authentication/index.html",
+              "title": "Authentication"
+            },
+            {
+              "path": "features/authentication/password-storage.adoc",
+              "url": "/6.0/features/authentication/password-storage.html",
+              "title": "Password Storage"
+            },
+            {
+              "path": "features/authorization/index.adoc",
+              "url": "/6.0/features/authorization/index.html",
+              "title": "Authorization"
+            },
+            {
+              "path": "features/exploits/index.adoc",
+              "url": "/6.0/features/exploits/index.html",
+              "title": "Protection Against Exploits"
+            },
+            {
+              "path": "features/exploits/csrf.adoc",
+              "url": "/6.0/features/exploits/csrf.html",
+              "title": "Cross Site Request Forgery (CSRF)"
+            },
+            {
+              "path": "features/exploits/headers.adoc",
+              "url": "/6.0/features/exploits/headers.html",
+              "title": "Security HTTP Response Headers"
+            },
+            {
+              "path": "features/exploits/http.adoc",
+              "url": "/6.0/features/exploits/http.html",
+              "title": "HTTP"
+            },
+            {
+              "path": "features/integrations/index.adoc",
+              "url": "/6.0/features/integrations/index.html",
+              "title": "Integrations"
+            },
+            {
+              "path": "features/integrations/concurrency.adoc",
+              "url": "/6.0/features/integrations/concurrency.html",
+              "title": "Concurrency Support"
+            },
+            {
+              "path": "features/integrations/cryptography.adoc",
+              "url": "/6.0/features/integrations/cryptography.html",
+              "title": "Spring Security Crypto Module"
+            },
+            {
+              "path": "features/integrations/data.adoc",
+              "url": "/6.0/features/integrations/data.html",
+              "title": "Spring Data Integration"
+            },
+            {
+              "path": "features/integrations/jackson.adoc",
+              "url": "/6.0/features/integrations/jackson.html",
+              "title": "Jackson Support"
+            },
+            {
+              "path": "features/integrations/localization.adoc",
+              "url": "/6.0/features/integrations/localization.html",
+              "title": "Localization"
+            },
+            {
+              "path": "getting-spring-security.adoc",
+              "url": "/6.0/getting-spring-security.html",
+              "title": "Getting Spring Security"
+            },
+            {
+              "path": "migration.adoc",
+              "url": "/6.0/migration.html",
+              "title": "Migrating to 6.0"
+            },
+            {
+              "path": "modules.adoc",
+              "url": "/6.0/modules.html",
+              "title": "Project Modules and Dependencies"
+            },
+            {
+              "path": "prerequisites.adoc",
+              "url": "/6.0/prerequisites.html",
+              "title": "Prerequisites"
+            },
+            {
+              "path": "reactive/index.adoc",
+              "url": "/6.0/reactive/index.html",
+              "title": "Reactive Applications"
+            },
+            {
+              "path": "reactive/authentication/logout.adoc",
+              "url": "/6.0/reactive/authentication/logout.html",
+              "title": "Logout"
+            },
+            {
+              "path": "reactive/authentication/x509.adoc",
+              "url": "/6.0/reactive/authentication/x509.html",
+              "title": "Reactive X.509 Authentication"
+            },
+            {
+              "path": "reactive/authorization/authorize-http-requests.adoc",
+              "url": "/6.0/reactive/authorization/authorize-http-requests.html",
+              "title": "Authorize ServerHttpRequest"
+            },
+            {
+              "path": "reactive/authorization/method.adoc",
+              "url": "/6.0/reactive/authorization/method.html",
+              "title": "EnableReactiveMethodSecurity"
+            },
+            {
+              "path": "reactive/configuration/webflux.adoc",
+              "url": "/6.0/reactive/configuration/webflux.html",
+              "title": "WebFlux Security"
+            },
+            {
+              "path": "reactive/exploits/index.adoc",
+              "url": "/6.0/reactive/exploits/index.html",
+              "title": "Protection Against Exploits"
+            },
+            {
+              "path": "reactive/exploits/csrf.adoc",
+              "url": "/6.0/reactive/exploits/csrf.html",
+              "title": "Cross Site Request Forgery (CSRF) for WebFlux Environments"
+            },
+            {
+              "path": "reactive/exploits/headers.adoc",
+              "url": "/6.0/reactive/exploits/headers.html",
+              "title": "Security HTTP Response Headers"
+            },
+            {
+              "path": "reactive/exploits/http.adoc",
+              "url": "/6.0/reactive/exploits/http.html",
+              "title": "HTTP"
+            },
+            {
+              "path": "reactive/getting-started.adoc",
+              "url": "/6.0/reactive/getting-started.html",
+              "title": "Getting Started with WebFlux Applications"
+            },
+            {
+              "path": "reactive/integrations/cors.adoc",
+              "url": "/6.0/reactive/integrations/cors.html",
+              "title": "CORS"
+            },
+            {
+              "path": "reactive/integrations/observability.adoc",
+              "url": "/6.0/reactive/integrations/observability.html",
+              "title": "Observability"
+            },
+            {
+              "path": "reactive/integrations/rsocket.adoc",
+              "url": "/6.0/reactive/integrations/rsocket.html",
+              "title": "RSocket Security"
+            },
+            {
+              "path": "reactive/oauth2/index.adoc",
+              "url": "/6.0/reactive/oauth2/index.html",
+              "title": "OAuth2 WebFlux"
+            },
+            {
+              "path": "reactive/oauth2/client/index.adoc",
+              "url": "/6.0/reactive/oauth2/client/index.html",
+              "title": "OAuth 2.0 Client"
+            },
+            {
+              "path": "reactive/oauth2/client/authorization-grants.adoc",
+              "url": "/6.0/reactive/oauth2/client/authorization-grants.html",
+              "title": "Authorization Grant Support"
+            },
+            {
+              "path": "reactive/oauth2/client/authorized-clients.adoc",
+              "url": "/6.0/reactive/oauth2/client/authorized-clients.html",
+              "title": "Authorized Clients"
+            },
+            {
+              "path": "reactive/oauth2/client/client-authentication.adoc",
+              "url": "/6.0/reactive/oauth2/client/client-authentication.html",
+              "title": "Client Authentication Support"
+            },
+            {
+              "path": "reactive/oauth2/client/core.adoc",
+              "url": "/6.0/reactive/oauth2/client/core.html",
+              "title": "Core Interfaces / Classes"
+            },
+            {
+              "path": "reactive/oauth2/login/index.adoc",
+              "url": "/6.0/reactive/oauth2/login/index.html",
+              "title": "OAuth 2.0 Login"
+            },
+            {
+              "path": "reactive/oauth2/login/advanced.adoc",
+              "url": "/6.0/reactive/oauth2/login/advanced.html",
+              "title": "Advanced Configuration"
+            },
+            {
+              "path": "reactive/oauth2/login/core.adoc",
+              "url": "/6.0/reactive/oauth2/login/core.html",
+              "title": "Core Configuration"
+            },
+            {
+              "path": "reactive/oauth2/resource-server/index.adoc",
+              "url": "/6.0/reactive/oauth2/resource-server/index.html",
+              "title": "OAuth 2.0 Resource Server"
+            },
+            {
+              "path": "reactive/oauth2/resource-server/bearer-tokens.adoc",
+              "url": "/6.0/reactive/oauth2/resource-server/bearer-tokens.html",
+              "title": "OAuth 2.0 Resource Server Bearer Tokens"
+            },
+            {
+              "path": "reactive/oauth2/resource-server/jwt.adoc",
+              "url": "/6.0/reactive/oauth2/resource-server/jwt.html",
+              "title": "OAuth 2.0 Resource Server JWT"
+            },
+            {
+              "path": "reactive/oauth2/resource-server/multitenancy.adoc",
+              "url": "/6.0/reactive/oauth2/resource-server/multitenancy.html",
+              "title": "OAuth 2.0 Resource Server Multi-tenancy"
+            },
+            {
+              "path": "reactive/oauth2/resource-server/opaque-token.adoc",
+              "url": "/6.0/reactive/oauth2/resource-server/opaque-token.html",
+              "title": "OAuth 2.0 Resource Server Opaque Token"
+            },
+            {
+              "path": "reactive/test/index.adoc",
+              "url": "/6.0/reactive/test/index.html",
+              "title": "Reactive Test Support"
+            },
+            {
+              "path": "reactive/test/method.adoc",
+              "url": "/6.0/reactive/test/method.html",
+              "title": "Testing Method Security"
+            },
+            {
+              "path": "reactive/test/web/index.adoc",
+              "url": "/6.0/reactive/test/web/index.html",
+              "title": "Testing Web Security"
+            },
+            {
+              "path": "reactive/test/web/authentication.adoc",
+              "url": "/6.0/reactive/test/web/authentication.html",
+              "title": "Testing Authentication"
+            },
+            {
+              "path": "reactive/test/web/csrf.adoc",
+              "url": "/6.0/reactive/test/web/csrf.html",
+              "title": "Testing with CSRF"
+            },
+            {
+              "path": "reactive/test/web/oauth2.adoc",
+              "url": "/6.0/reactive/test/web/oauth2.html",
+              "title": "Testing OAuth 2.0"
+            },
+            {
+              "path": "reactive/test/web/setup.adoc",
+              "url": "/6.0/reactive/test/web/setup.html",
+              "title": "WebTestClient Security Setup"
+            },
+            {
+              "path": "samples.adoc",
+              "url": "/6.0/samples.html",
+              "title": "Samples"
+            },
+            {
+              "path": "servlet/index.adoc",
+              "url": "/6.0/servlet/index.html",
+              "title": "Servlet Applications"
+            },
+            {
+              "path": "servlet/appendix/index.adoc",
+              "url": "/6.0/servlet/appendix/index.html",
+              "title": "Appendix"
+            },
+            {
+              "path": "servlet/appendix/database-schema.adoc",
+              "url": "/6.0/servlet/appendix/database-schema.html",
+              "title": "Security Database Schema"
+            },
+            {
+              "path": "servlet/appendix/faq.adoc",
+              "url": "/6.0/servlet/appendix/faq.html",
+              "title": "Spring Security FAQ"
+            },
+            {
+              "path": "servlet/appendix/namespace/index.adoc",
+              "url": "/6.0/servlet/appendix/namespace/index.html",
+              "title": "The Security Namespace"
+            },
+            {
+              "path": "servlet/appendix/namespace/authentication-manager.adoc",
+              "url": "/6.0/servlet/appendix/namespace/authentication-manager.html",
+              "title": "Authentication Services"
+            },
+            {
+              "path": "servlet/appendix/namespace/http.adoc",
+              "url": "/6.0/servlet/appendix/namespace/http.html",
+              "title": "Web Application Security"
+            },
+            {
+              "path": "servlet/appendix/namespace/ldap.adoc",
+              "url": "/6.0/servlet/appendix/namespace/ldap.html",
+              "title": "LDAP Namespace Options"
+            },
+            {
+              "path": "servlet/appendix/namespace/method-security.adoc",
+              "url": "/6.0/servlet/appendix/namespace/method-security.html",
+              "title": "Method Security"
+            },
+            {
+              "path": "servlet/appendix/namespace/websocket.adoc",
+              "url": "/6.0/servlet/appendix/namespace/websocket.html",
+              "title": "WebSocket Security"
+            },
+            {
+              "path": "servlet/appendix/proxy-server.adoc",
+              "url": "/6.0/servlet/appendix/proxy-server.html",
+              "title": "Proxy Server Configuration"
+            },
+            {
+              "path": "servlet/architecture.adoc",
+              "url": "/6.0/servlet/architecture.html",
+              "title": "Architecture"
+            },
+            {
+              "path": "servlet/authentication/index.adoc",
+              "url": "/6.0/servlet/authentication/index.html",
+              "title": "Authentication"
+            },
+            {
+              "path": "servlet/authentication/anonymous.adoc",
+              "url": "/6.0/servlet/authentication/anonymous.html",
+              "title": "Anonymous Authentication"
+            },
+            {
+              "path": "servlet/authentication/architecture.adoc",
+              "url": "/6.0/servlet/authentication/architecture.html",
+              "title": "Servlet Authentication Architecture"
+            },
+            {
+              "path": "servlet/authentication/events.adoc",
+              "url": "/6.0/servlet/authentication/events.html",
+              "title": "Authentication Events"
+            },
+            {
+              "path": "servlet/authentication/jaas.adoc",
+              "url": "/6.0/servlet/authentication/jaas.html",
+              "title": "Java Authentication and Authorization Service (JAAS) Provider"
+            },
+            {
+              "path": "servlet/authentication/logout.adoc",
+              "url": "/6.0/servlet/authentication/logout.html",
+              "title": "Handling Logouts"
+            },
+            {
+              "path": "servlet/authentication/passwords/index.adoc",
+              "url": "/6.0/servlet/authentication/passwords/index.html",
+              "title": "Username/Password Authentication"
+            },
+            {
+              "path": "servlet/authentication/passwords/basic.adoc",
+              "url": "/6.0/servlet/authentication/passwords/basic.html",
+              "title": "Basic Authentication"
+            },
+            {
+              "path": "servlet/authentication/passwords/dao-authentication-provider.adoc",
+              "url": "/6.0/servlet/authentication/passwords/dao-authentication-provider.html",
+              "title": "DaoAuthenticationProvider"
+            },
+            {
+              "path": "servlet/authentication/passwords/digest.adoc",
+              "url": "/6.0/servlet/authentication/passwords/digest.html",
+              "title": "Digest Authentication"
+            },
+            {
+              "path": "servlet/authentication/passwords/form.adoc",
+              "url": "/6.0/servlet/authentication/passwords/form.html",
+              "title": "Form Login"
+            },
+            {
+              "path": "servlet/authentication/passwords/in-memory.adoc",
+              "url": "/6.0/servlet/authentication/passwords/in-memory.html",
+              "title": "In-Memory Authentication"
+            },
+            {
+              "path": "servlet/authentication/passwords/input.adoc",
+              "url": "/6.0/servlet/authentication/passwords/input.html",
+              "title": "Reading the Username &amp; Password"
+            },
+            {
+              "path": "servlet/authentication/passwords/jdbc.adoc",
+              "url": "/6.0/servlet/authentication/passwords/jdbc.html",
+              "title": "JDBC Authentication"
+            },
+            {
+              "path": "servlet/authentication/passwords/ldap.adoc",
+              "url": "/6.0/servlet/authentication/passwords/ldap.html",
+              "title": "LDAP Authentication"
+            },
+            {
+              "path": "servlet/authentication/passwords/password-encoder.adoc",
+              "url": "/6.0/servlet/authentication/passwords/password-encoder.html",
+              "title": "PasswordEncoder"
+            },
+            {
+              "path": "servlet/authentication/passwords/storage.adoc",
+              "url": "/6.0/servlet/authentication/passwords/storage.html",
+              "title": "Storage Mechanisms"
+            },
+            {
+              "path": "servlet/authentication/passwords/user-details-service.adoc",
+              "url": "/6.0/servlet/authentication/passwords/user-details-service.html",
+              "title": "UserDetailsService"
+            },
+            {
+              "path": "servlet/authentication/passwords/user-details.adoc",
+              "url": "/6.0/servlet/authentication/passwords/user-details.html",
+              "title": "UserDetails"
+            },
+            {
+              "path": "servlet/authentication/persistence.adoc",
+              "url": "/6.0/servlet/authentication/persistence.html",
+              "title": "Persisting Authentication"
+            },
+            {
+              "path": "servlet/authentication/preauth.adoc",
+              "url": "/6.0/servlet/authentication/preauth.html",
+              "title": "Pre-Authentication Scenarios"
+            },
+            {
+              "path": "servlet/authentication/rememberme.adoc",
+              "url": "/6.0/servlet/authentication/rememberme.html",
+              "title": "Remember-Me Authentication"
+            },
+            {
+              "path": "servlet/authentication/runas.adoc",
+              "url": "/6.0/servlet/authentication/runas.html",
+              "title": "Run-As Authentication Replacement"
+            },
+            {
+              "path": "servlet/authentication/session-management.adoc",
+              "url": "/6.0/servlet/authentication/session-management.html",
+              "title": "Session Management"
+            },
+            {
+              "path": "servlet/authentication/x509.adoc",
+              "url": "/6.0/servlet/authentication/x509.html",
+              "title": "X.509 Authentication"
+            },
+            {
+              "path": "servlet/authorization/index.adoc",
+              "url": "/6.0/servlet/authorization/index.html",
+              "title": "Authorization"
+            },
+            {
+              "path": "servlet/authorization/acls.adoc",
+              "url": "/6.0/servlet/authorization/acls.html",
+              "title": "Domain Object Security (ACLs)"
+            },
+            {
+              "path": "servlet/authorization/architecture.adoc",
+              "url": "/6.0/servlet/authorization/architecture.html",
+              "title": "Authorization Architecture"
+            },
+            {
+              "path": "servlet/authorization/authorize-http-requests.adoc",
+              "url": "/6.0/servlet/authorization/authorize-http-requests.html",
+              "title": "Authorize HttpServletRequests with AuthorizationFilter"
+            },
+            {
+              "path": "servlet/authorization/authorize-requests.adoc",
+              "url": "/6.0/servlet/authorization/authorize-requests.html",
+              "title": "Authorize HttpServletRequest with FilterSecurityInterceptor"
+            },
+            {
+              "path": "servlet/authorization/events.adoc",
+              "url": "/6.0/servlet/authorization/events.html",
+              "title": "Authorization Events"
+            },
+            {
+              "path": "servlet/authorization/expression-based.adoc",
+              "url": "/6.0/servlet/authorization/expression-based.html",
+              "title": "Expression-Based Access Control"
+            },
+            {
+              "path": "servlet/authorization/method-security.adoc",
+              "url": "/6.0/servlet/authorization/method-security.html",
+              "title": "Method Security"
+            },
+            {
+              "path": "servlet/authorization/secure-objects.adoc",
+              "url": "/6.0/servlet/authorization/secure-objects.html",
+              "title": "Secure Object Implementations"
+            },
+            {
+              "path": "servlet/configuration/java.adoc",
+              "url": "/6.0/servlet/configuration/java.html",
+              "title": "Java Configuration"
+            },
+            {
+              "path": "servlet/configuration/kotlin.adoc",
+              "url": "/6.0/servlet/configuration/kotlin.html",
+              "title": "Kotlin Configuration"
+            },
+            {
+              "path": "servlet/configuration/xml-namespace.adoc",
+              "url": "/6.0/servlet/configuration/xml-namespace.html",
+              "title": "Security Namespace Configuration"
+            },
+            {
+              "path": "servlet/exploits/index.adoc",
+              "url": "/6.0/servlet/exploits/index.html",
+              "title": "Protection Against Exploits"
+            },
+            {
+              "path": "servlet/exploits/csrf.adoc",
+              "url": "/6.0/servlet/exploits/csrf.html",
+              "title": "Cross Site Request Forgery (CSRF) for Servlet Environments"
+            },
+            {
+              "path": "servlet/exploits/firewall.adoc",
+              "url": "/6.0/servlet/exploits/firewall.html",
+              "title": "HttpFirewall"
+            },
+            {
+              "path": "servlet/exploits/headers.adoc",
+              "url": "/6.0/servlet/exploits/headers.html",
+              "title": "Security HTTP Response Headers"
+            },
+            {
+              "path": "servlet/exploits/http.adoc",
+              "url": "/6.0/servlet/exploits/http.html",
+              "title": "HTTP"
+            },
+            {
+              "path": "servlet/getting-started.adoc",
+              "url": "/6.0/servlet/getting-started.html",
+              "title": "Hello Spring Security"
+            },
+            {
+              "path": "servlet/integrations/index.adoc",
+              "url": "/6.0/servlet/integrations/index.html",
+              "title": "Integrations"
+            },
+            {
+              "path": "servlet/integrations/concurrency.adoc",
+              "url": "/6.0/servlet/integrations/concurrency.html",
+              "title": "Concurrency Support"
+            },
+            {
+              "path": "servlet/integrations/cors.adoc",
+              "url": "/6.0/servlet/integrations/cors.html",
+              "title": "CORS"
+            },
+            {
+              "path": "servlet/integrations/data.adoc",
+              "url": "/6.0/servlet/integrations/data.html",
+              "title": "Spring Data Integration"
+            },
+            {
+              "path": "servlet/integrations/jackson.adoc",
+              "url": "/6.0/servlet/integrations/jackson.html",
+              "title": "Jackson Support"
+            },
+            {
+              "path": "servlet/integrations/jsp-taglibs.adoc",
+              "url": "/6.0/servlet/integrations/jsp-taglibs.html",
+              "title": "JSP Tag Libraries"
+            },
+            {
+              "path": "servlet/integrations/localization.adoc",
+              "url": "/6.0/servlet/integrations/localization.html",
+              "title": "Localization"
+            },
+            {
+              "path": "servlet/integrations/mvc.adoc",
+              "url": "/6.0/servlet/integrations/mvc.html",
+              "title": "Spring MVC Integration"
+            },
+            {
+              "path": "servlet/integrations/observability.adoc",
+              "url": "/6.0/servlet/integrations/observability.html",
+              "title": "Observability"
+            },
+            {
+              "path": "servlet/integrations/servlet-api.adoc",
+              "url": "/6.0/servlet/integrations/servlet-api.html",
+              "title": "Servlet API integration"
+            },
+            {
+              "path": "servlet/integrations/websocket.adoc",
+              "url": "/6.0/servlet/integrations/websocket.html",
+              "title": "WebSocket Security"
+            },
+            {
+              "path": "servlet/oauth2/index.adoc",
+              "url": "/6.0/servlet/oauth2/index.html",
+              "title": "OAuth2"
+            },
+            {
+              "path": "servlet/oauth2/client/index.adoc",
+              "url": "/6.0/servlet/oauth2/client/index.html",
+              "title": "OAuth 2.0 Client"
+            },
+            {
+              "path": "servlet/oauth2/client/authorization-grants.adoc",
+              "url": "/6.0/servlet/oauth2/client/authorization-grants.html",
+              "title": "Authorization Grant Support"
+            },
+            {
+              "path": "servlet/oauth2/client/authorized-clients.adoc",
+              "url": "/6.0/servlet/oauth2/client/authorized-clients.html",
+              "title": "Authorized Client Features"
+            },
+            {
+              "path": "servlet/oauth2/client/client-authentication.adoc",
+              "url": "/6.0/servlet/oauth2/client/client-authentication.html",
+              "title": "Client Authentication Support"
+            },
+            {
+              "path": "servlet/oauth2/client/core.adoc",
+              "url": "/6.0/servlet/oauth2/client/core.html",
+              "title": "Core Interfaces and Classes"
+            },
+            {
+              "path": "servlet/oauth2/login/index.adoc",
+              "url": "/6.0/servlet/oauth2/login/index.html",
+              "title": "OAuth 2.0 Login"
+            },
+            {
+              "path": "servlet/oauth2/login/advanced.adoc",
+              "url": "/6.0/servlet/oauth2/login/advanced.html",
+              "title": "Advanced Configuration"
+            },
+            {
+              "path": "servlet/oauth2/login/core.adoc",
+              "url": "/6.0/servlet/oauth2/login/core.html",
+              "title": "Core Configuration"
+            },
+            {
+              "path": "servlet/oauth2/resource-server/index.adoc",
+              "url": "/6.0/servlet/oauth2/resource-server/index.html",
+              "title": "OAuth 2.0 Resource Server"
+            },
+            {
+              "path": "servlet/oauth2/resource-server/bearer-tokens.adoc",
+              "url": "/6.0/servlet/oauth2/resource-server/bearer-tokens.html",
+              "title": "OAuth 2.0 Bearer Tokens"
+            },
+            {
+              "path": "servlet/oauth2/resource-server/jwt.adoc",
+              "url": "/6.0/servlet/oauth2/resource-server/jwt.html",
+              "title": "OAuth 2.0 Resource Server JWT"
+            },
+            {
+              "path": "servlet/oauth2/resource-server/multitenancy.adoc",
+              "url": "/6.0/servlet/oauth2/resource-server/multitenancy.html",
+              "title": "OAuth 2.0 Resource Server Multi-tenancy"
+            },
+            {
+              "path": "servlet/oauth2/resource-server/opaque-token.adoc",
+              "url": "/6.0/servlet/oauth2/resource-server/opaque-token.html",
+              "title": "OAuth 2.0 Resource Server Opaque Token"
+            },
+            {
+              "path": "servlet/saml2/index.adoc",
+              "url": "/6.0/servlet/saml2/index.html",
+              "title": "SAML2"
+            },
+            {
+              "path": "servlet/saml2/login/index.adoc",
+              "url": "/6.0/servlet/saml2/login/index.html",
+              "title": "SAML 2.0 Login"
+            },
+            {
+              "path": "servlet/saml2/login/authentication-requests.adoc",
+              "url": "/6.0/servlet/saml2/login/authentication-requests.html",
+              "title": "Producing <code>&lt;saml2:AuthnRequest&gt;</code>s"
+            },
+            {
+              "path": "servlet/saml2/login/authentication.adoc",
+              "url": "/6.0/servlet/saml2/login/authentication.html",
+              "title": "Authenticating <code>&lt;saml2:Response&gt;</code>s"
+            },
+            {
+              "path": "servlet/saml2/login/overview.adoc",
+              "url": "/6.0/servlet/saml2/login/overview.html",
+              "title": "SAML 2.0 Login Overview"
+            },
+            {
+              "path": "servlet/saml2/logout.adoc",
+              "url": "/6.0/servlet/saml2/logout.html",
+              "title": "Performing Single Logout"
+            },
+            {
+              "path": "servlet/saml2/metadata.adoc",
+              "url": "/6.0/servlet/saml2/metadata.html",
+              "title": "Producing <code>&lt;saml2:SPSSODescriptor&gt;</code> Metadata"
+            },
+            {
+              "path": "servlet/test/index.adoc",
+              "url": "/6.0/servlet/test/index.html",
+              "title": "Testing"
+            },
+            {
+              "path": "servlet/test/method.adoc",
+              "url": "/6.0/servlet/test/method.html",
+              "title": "Testing Method Security"
+            },
+            {
+              "path": "servlet/test/mockmvc/index.adoc",
+              "url": "/6.0/servlet/test/mockmvc/index.html",
+              "title": "Spring MVC Test Integration"
+            },
+            {
+              "path": "servlet/test/mockmvc/authentication.adoc",
+              "url": "/6.0/servlet/test/mockmvc/authentication.html",
+              "title": "Running a Test as a User in Spring MVC Test"
+            },
+            {
+              "path": "servlet/test/mockmvc/csrf.adoc",
+              "url": "/6.0/servlet/test/mockmvc/csrf.html",
+              "title": "Testing with CSRF Protection"
+            },
+            {
+              "path": "servlet/test/mockmvc/form-login.adoc",
+              "url": "/6.0/servlet/test/mockmvc/form-login.html",
+              "title": "Testing Form Based Authentication"
+            },
+            {
+              "path": "servlet/test/mockmvc/http-basic.adoc",
+              "url": "/6.0/servlet/test/mockmvc/http-basic.html",
+              "title": "Testing HTTP Basic Authentication"
+            },
+            {
+              "path": "servlet/test/mockmvc/logout.adoc",
+              "url": "/6.0/servlet/test/mockmvc/logout.html",
+              "title": "Testing Logout"
+            },
+            {
+              "path": "servlet/test/mockmvc/oauth2.adoc",
+              "url": "/6.0/servlet/test/mockmvc/oauth2.html",
+              "title": "Testing OAuth 2.0"
+            },
+            {
+              "path": "servlet/test/mockmvc/request-builders.adoc",
+              "url": "/6.0/servlet/test/mockmvc/request-builders.html"
+            },
+            {
+              "path": "servlet/test/mockmvc/request-post-processors.adoc",
+              "url": "/6.0/servlet/test/mockmvc/request-post-processors.html",
+              "title": "SecurityMockMvcRequestPostProcessors"
+            },
+            {
+              "path": "servlet/test/mockmvc/result-handlers.adoc",
+              "url": "/6.0/servlet/test/mockmvc/result-handlers.html"
+            },
+            {
+              "path": "servlet/test/mockmvc/result-matchers.adoc",
+              "url": "/6.0/servlet/test/mockmvc/result-matchers.html"
+            },
+            {
+              "path": "servlet/test/mockmvc/setup.adoc",
+              "url": "/6.0/servlet/test/mockmvc/setup.html",
+              "title": "Setting Up MockMvc and Spring Security"
+            },
+            {
+              "path": "whats-new.adoc",
+              "url": "/6.0/whats-new.html",
+              "title": "What&#8217;s New in Spring Security 6.0"
+            }
+          ]
+        },
+        "5.7.6": {
+          "prerelease": true,
+          "displayVersion": "5.7.6-SNAPSHOT",
+          "url": "/5.7.6/index.html",
+          "pages": [
+            {
+              "path": "index.adoc",
+              "url": "/5.7.6/index.html",
+              "title": "Spring Security"
+            },
+            {
+              "path": "community.adoc",
+              "url": "/5.7.6/community.html",
+              "title": "Spring Security Community"
+            },
+            {
+              "path": "features/index.adoc",
+              "url": "/5.7.6/features/index.html",
+              "title": "Features"
+            },
+            {
+              "path": "features/authentication/index.adoc",
+              "url": "/5.7.6/features/authentication/index.html",
+              "title": "Authentication"
+            },
+            {
+              "path": "features/authentication/password-storage.adoc",
+              "url": "/5.7.6/features/authentication/password-storage.html",
+              "title": "Password Storage"
+            },
+            {
+              "path": "features/authorization/index.adoc",
+              "url": "/5.7.6/features/authorization/index.html",
+              "title": "Authorization"
+            },
+            {
+              "path": "features/exploits/index.adoc",
+              "url": "/5.7.6/features/exploits/index.html",
+              "title": "Protection Against Exploits"
+            },
+            {
+              "path": "features/exploits/csrf.adoc",
+              "url": "/5.7.6/features/exploits/csrf.html",
+              "title": "Cross Site Request Forgery (CSRF)"
+            },
+            {
+              "path": "features/exploits/headers.adoc",
+              "url": "/5.7.6/features/exploits/headers.html",
+              "title": "Security HTTP Response Headers"
+            },
+            {
+              "path": "features/exploits/http.adoc",
+              "url": "/5.7.6/features/exploits/http.html",
+              "title": "HTTP"
+            },
+            {
+              "path": "features/integrations/index.adoc",
+              "url": "/5.7.6/features/integrations/index.html",
+              "title": "Integrations"
+            },
+            {
+              "path": "features/integrations/concurrency.adoc",
+              "url": "/5.7.6/features/integrations/concurrency.html",
+              "title": "Concurrency Support"
+            },
+            {
+              "path": "features/integrations/cryptography.adoc",
+              "url": "/5.7.6/features/integrations/cryptography.html",
+              "title": "Spring Security Crypto Module"
+            },
+            {
+              "path": "features/integrations/data.adoc",
+              "url": "/5.7.6/features/integrations/data.html",
+              "title": "Spring Data Integration"
+            },
+            {
+              "path": "features/integrations/jackson.adoc",
+              "url": "/5.7.6/features/integrations/jackson.html",
+              "title": "Jackson Support"
+            },
+            {
+              "path": "features/integrations/localization.adoc",
+              "url": "/5.7.6/features/integrations/localization.html",
+              "title": "Localization"
+            },
+            {
+              "path": "getting-spring-security.adoc",
+              "url": "/5.7.6/getting-spring-security.html",
+              "title": "Getting Spring Security"
+            },
+            {
+              "path": "modules.adoc",
+              "url": "/5.7.6/modules.html",
+              "title": "Project Modules and Dependencies"
+            },
+            {
+              "path": "prerequisites.adoc",
+              "url": "/5.7.6/prerequisites.html",
+              "title": "Prerequisites"
+            },
+            {
+              "path": "reactive/index.adoc",
+              "url": "/5.7.6/reactive/index.html",
+              "title": "Reactive Applications"
+            },
+            {
+              "path": "reactive/authentication/logout.adoc",
+              "url": "/5.7.6/reactive/authentication/logout.html",
+              "title": "Logout"
+            },
+            {
+              "path": "reactive/authentication/x509.adoc",
+              "url": "/5.7.6/reactive/authentication/x509.html",
+              "title": "Reactive X.509 Authentication"
+            },
+            {
+              "path": "reactive/authorization/authorize-http-requests.adoc",
+              "url": "/5.7.6/reactive/authorization/authorize-http-requests.html",
+              "title": "Authorize ServerHttpRequest"
+            },
+            {
+              "path": "reactive/authorization/method.adoc",
+              "url": "/5.7.6/reactive/authorization/method.html",
+              "title": "EnableReactiveMethodSecurity"
+            },
+            {
+              "path": "reactive/configuration/webflux.adoc",
+              "url": "/5.7.6/reactive/configuration/webflux.html",
+              "title": "WebFlux Security"
+            },
+            {
+              "path": "reactive/exploits/index.adoc",
+              "url": "/5.7.6/reactive/exploits/index.html",
+              "title": "Protection Against Exploits"
+            },
+            {
+              "path": "reactive/exploits/csrf.adoc",
+              "url": "/5.7.6/reactive/exploits/csrf.html",
+              "title": "Cross Site Request Forgery (CSRF) for WebFlux Environments"
+            },
+            {
+              "path": "reactive/exploits/headers.adoc",
+              "url": "/5.7.6/reactive/exploits/headers.html",
+              "title": "Security HTTP Response Headers"
+            },
+            {
+              "path": "reactive/exploits/http.adoc",
+              "url": "/5.7.6/reactive/exploits/http.html",
+              "title": "HTTP"
+            },
+            {
+              "path": "reactive/getting-started.adoc",
+              "url": "/5.7.6/reactive/getting-started.html",
+              "title": "Getting Started with WebFlux Applications"
+            },
+            {
+              "path": "reactive/integrations/cors.adoc",
+              "url": "/5.7.6/reactive/integrations/cors.html",
+              "title": "CORS"
+            },
+            {
+              "path": "reactive/integrations/rsocket.adoc",
+              "url": "/5.7.6/reactive/integrations/rsocket.html",
+              "title": "RSocket Security"
+            },
+            {
+              "path": "reactive/oauth2/index.adoc",
+              "url": "/5.7.6/reactive/oauth2/index.html",
+              "title": "OAuth2 WebFlux"
+            },
+            {
+              "path": "reactive/oauth2/client/index.adoc",
+              "url": "/5.7.6/reactive/oauth2/client/index.html",
+              "title": "OAuth 2.0 Client"
+            },
+            {
+              "path": "reactive/oauth2/client/authorization-grants.adoc",
+              "url": "/5.7.6/reactive/oauth2/client/authorization-grants.html",
+              "title": "Authorization Grant Support"
+            },
+            {
+              "path": "reactive/oauth2/client/authorized-clients.adoc",
+              "url": "/5.7.6/reactive/oauth2/client/authorized-clients.html",
+              "title": "Authorized Clients"
+            },
+            {
+              "path": "reactive/oauth2/client/client-authentication.adoc",
+              "url": "/5.7.6/reactive/oauth2/client/client-authentication.html",
+              "title": "Client Authentication Support"
+            },
+            {
+              "path": "reactive/oauth2/client/core.adoc",
+              "url": "/5.7.6/reactive/oauth2/client/core.html",
+              "title": "Core Interfaces / Classes"
+            },
+            {
+              "path": "reactive/oauth2/login/index.adoc",
+              "url": "/5.7.6/reactive/oauth2/login/index.html",
+              "title": "OAuth 2.0 Login"
+            },
+            {
+              "path": "reactive/oauth2/login/advanced.adoc",
+              "url": "/5.7.6/reactive/oauth2/login/advanced.html",
+              "title": "Advanced Configuration"
+            },
+            {
+              "path": "reactive/oauth2/login/core.adoc",
+              "url": "/5.7.6/reactive/oauth2/login/core.html",
+              "title": "Core Configuration"
+            },
+            {
+              "path": "reactive/oauth2/resource-server/index.adoc",
+              "url": "/5.7.6/reactive/oauth2/resource-server/index.html",
+              "title": "OAuth 2.0 Resource Server"
+            },
+            {
+              "path": "reactive/oauth2/resource-server/bearer-tokens.adoc",
+              "url": "/5.7.6/reactive/oauth2/resource-server/bearer-tokens.html",
+              "title": "OAuth 2.0 Resource Server Bearer Tokens"
+            },
+            {
+              "path": "reactive/oauth2/resource-server/jwt.adoc",
+              "url": "/5.7.6/reactive/oauth2/resource-server/jwt.html",
+              "title": "OAuth 2.0 Resource Server JWT"
+            },
+            {
+              "path": "reactive/oauth2/resource-server/multitenancy.adoc",
+              "url": "/5.7.6/reactive/oauth2/resource-server/multitenancy.html",
+              "title": "OAuth 2.0 Resource Server Multi-tenancy"
+            },
+            {
+              "path": "reactive/oauth2/resource-server/opaque-token.adoc",
+              "url": "/5.7.6/reactive/oauth2/resource-server/opaque-token.html",
+              "title": "OAuth 2.0 Resource Server Opaque Token"
+            },
+            {
+              "path": "reactive/test/index.adoc",
+              "url": "/5.7.6/reactive/test/index.html",
+              "title": "Reactive Test Support"
+            },
+            {
+              "path": "reactive/test/method.adoc",
+              "url": "/5.7.6/reactive/test/method.html",
+              "title": "Testing Method Security"
+            },
+            {
+              "path": "reactive/test/web/index.adoc",
+              "url": "/5.7.6/reactive/test/web/index.html",
+              "title": "Testing Web Security"
+            },
+            {
+              "path": "reactive/test/web/authentication.adoc",
+              "url": "/5.7.6/reactive/test/web/authentication.html",
+              "title": "Testing Authentication"
+            },
+            {
+              "path": "reactive/test/web/csrf.adoc",
+              "url": "/5.7.6/reactive/test/web/csrf.html",
+              "title": "Testing with CSRF"
+            },
+            {
+              "path": "reactive/test/web/oauth2.adoc",
+              "url": "/5.7.6/reactive/test/web/oauth2.html",
+              "title": "Testing OAuth 2.0"
+            },
+            {
+              "path": "reactive/test/web/setup.adoc",
+              "url": "/5.7.6/reactive/test/web/setup.html",
+              "title": "WebTestClient Security Setup"
+            },
+            {
+              "path": "samples.adoc",
+              "url": "/5.7.6/samples.html",
+              "title": "Samples"
+            },
+            {
+              "path": "servlet/index.adoc",
+              "url": "/5.7.6/servlet/index.html",
+              "title": "Servlet Applications"
+            },
+            {
+              "path": "servlet/appendix/index.adoc",
+              "url": "/5.7.6/servlet/appendix/index.html",
+              "title": "Appendix"
+            },
+            {
+              "path": "servlet/appendix/database-schema.adoc",
+              "url": "/5.7.6/servlet/appendix/database-schema.html",
+              "title": "Security Database Schema"
+            },
+            {
+              "path": "servlet/appendix/faq.adoc",
+              "url": "/5.7.6/servlet/appendix/faq.html",
+              "title": "Spring Security FAQ"
+            },
+            {
+              "path": "servlet/appendix/namespace/index.adoc",
+              "url": "/5.7.6/servlet/appendix/namespace/index.html",
+              "title": "The Security Namespace"
+            },
+            {
+              "path": "servlet/appendix/namespace/authentication-manager.adoc",
+              "url": "/5.7.6/servlet/appendix/namespace/authentication-manager.html",
+              "title": "Authentication Services"
+            },
+            {
+              "path": "servlet/appendix/namespace/http.adoc",
+              "url": "/5.7.6/servlet/appendix/namespace/http.html",
+              "title": "Web Application Security"
+            },
+            {
+              "path": "servlet/appendix/namespace/ldap.adoc",
+              "url": "/5.7.6/servlet/appendix/namespace/ldap.html",
+              "title": "LDAP Namespace Options"
+            },
+            {
+              "path": "servlet/appendix/namespace/method-security.adoc",
+              "url": "/5.7.6/servlet/appendix/namespace/method-security.html",
+              "title": "Method Security"
+            },
+            {
+              "path": "servlet/appendix/namespace/websocket.adoc",
+              "url": "/5.7.6/servlet/appendix/namespace/websocket.html",
+              "title": "WebSocket Security"
+            },
+            {
+              "path": "servlet/appendix/proxy-server.adoc",
+              "url": "/5.7.6/servlet/appendix/proxy-server.html",
+              "title": "Proxy Server Configuration"
+            },
+            {
+              "path": "servlet/architecture.adoc",
+              "url": "/5.7.6/servlet/architecture.html",
+              "title": "Architecture"
+            },
+            {
+              "path": "servlet/authentication/index.adoc",
+              "url": "/5.7.6/servlet/authentication/index.html",
+              "title": "Authentication"
+            },
+            {
+              "path": "servlet/authentication/anonymous.adoc",
+              "url": "/5.7.6/servlet/authentication/anonymous.html",
+              "title": "Anonymous Authentication"
+            },
+            {
+              "path": "servlet/authentication/architecture.adoc",
+              "url": "/5.7.6/servlet/authentication/architecture.html",
+              "title": "Servlet Authentication Architecture"
+            },
+            {
+              "path": "servlet/authentication/cas.adoc",
+              "url": "/5.7.6/servlet/authentication/cas.html",
+              "title": "CAS Authentication"
+            },
+            {
+              "path": "servlet/authentication/events.adoc",
+              "url": "/5.7.6/servlet/authentication/events.html",
+              "title": "Authentication Events"
+            },
+            {
+              "path": "servlet/authentication/jaas.adoc",
+              "url": "/5.7.6/servlet/authentication/jaas.html",
+              "title": "Java Authentication and Authorization Service (JAAS) Provider"
+            },
+            {
+              "path": "servlet/authentication/logout.adoc",
+              "url": "/5.7.6/servlet/authentication/logout.html",
+              "title": "Handling Logouts"
+            },
+            {
+              "path": "servlet/authentication/openid.adoc",
+              "url": "/5.7.6/servlet/authentication/openid.html",
+              "title": "OpenID Support"
+            },
+            {
+              "path": "servlet/authentication/passwords/index.adoc",
+              "url": "/5.7.6/servlet/authentication/passwords/index.html",
+              "title": "Username/Password Authentication"
+            },
+            {
+              "path": "servlet/authentication/passwords/basic.adoc",
+              "url": "/5.7.6/servlet/authentication/passwords/basic.html",
+              "title": "Basic Authentication"
+            },
+            {
+              "path": "servlet/authentication/passwords/dao-authentication-provider.adoc",
+              "url": "/5.7.6/servlet/authentication/passwords/dao-authentication-provider.html",
+              "title": "DaoAuthenticationProvider"
+            },
+            {
+              "path": "servlet/authentication/passwords/digest.adoc",
+              "url": "/5.7.6/servlet/authentication/passwords/digest.html",
+              "title": "Digest Authentication"
+            },
+            {
+              "path": "servlet/authentication/passwords/form.adoc",
+              "url": "/5.7.6/servlet/authentication/passwords/form.html",
+              "title": "Form Login"
+            },
+            {
+              "path": "servlet/authentication/passwords/in-memory.adoc",
+              "url": "/5.7.6/servlet/authentication/passwords/in-memory.html",
+              "title": "In-Memory Authentication"
+            },
+            {
+              "path": "servlet/authentication/passwords/input.adoc",
+              "url": "/5.7.6/servlet/authentication/passwords/input.html",
+              "title": "Reading the Username &amp; Password"
+            },
+            {
+              "path": "servlet/authentication/passwords/jdbc.adoc",
+              "url": "/5.7.6/servlet/authentication/passwords/jdbc.html",
+              "title": "JDBC Authentication"
+            },
+            {
+              "path": "servlet/authentication/passwords/ldap.adoc",
+              "url": "/5.7.6/servlet/authentication/passwords/ldap.html",
+              "title": "LDAP Authentication"
+            },
+            {
+              "path": "servlet/authentication/passwords/password-encoder.adoc",
+              "url": "/5.7.6/servlet/authentication/passwords/password-encoder.html",
+              "title": "PasswordEncoder"
+            },
+            {
+              "path": "servlet/authentication/passwords/storage.adoc",
+              "url": "/5.7.6/servlet/authentication/passwords/storage.html",
+              "title": "Storage Mechanisms"
+            },
+            {
+              "path": "servlet/authentication/passwords/user-details-service.adoc",
+              "url": "/5.7.6/servlet/authentication/passwords/user-details-service.html",
+              "title": "UserDetailsService"
+            },
+            {
+              "path": "servlet/authentication/passwords/user-details.adoc",
+              "url": "/5.7.6/servlet/authentication/passwords/user-details.html",
+              "title": "UserDetails"
+            },
+            {
+              "path": "servlet/authentication/persistence.adoc",
+              "url": "/5.7.6/servlet/authentication/persistence.html",
+              "title": "Persisting Authentication"
+            },
+            {
+              "path": "servlet/authentication/preauth.adoc",
+              "url": "/5.7.6/servlet/authentication/preauth.html",
+              "title": "Pre-Authentication Scenarios"
+            },
+            {
+              "path": "servlet/authentication/rememberme.adoc",
+              "url": "/5.7.6/servlet/authentication/rememberme.html",
+              "title": "Remember-Me Authentication"
+            },
+            {
+              "path": "servlet/authentication/runas.adoc",
+              "url": "/5.7.6/servlet/authentication/runas.html",
+              "title": "Run-As Authentication Replacement"
+            },
+            {
+              "path": "servlet/authentication/session-management.adoc",
+              "url": "/5.7.6/servlet/authentication/session-management.html",
+              "title": "Session Management"
+            },
+            {
+              "path": "servlet/authentication/x509.adoc",
+              "url": "/5.7.6/servlet/authentication/x509.html",
+              "title": "X.509 Authentication"
+            },
+            {
+              "path": "servlet/authorization/index.adoc",
+              "url": "/5.7.6/servlet/authorization/index.html",
+              "title": "Authorization"
+            },
+            {
+              "path": "servlet/authorization/acls.adoc",
+              "url": "/5.7.6/servlet/authorization/acls.html",
+              "title": "Domain Object Security (ACLs)"
+            },
+            {
+              "path": "servlet/authorization/architecture.adoc",
+              "url": "/5.7.6/servlet/authorization/architecture.html",
+              "title": "Authorization Architecture"
+            },
+            {
+              "path": "servlet/authorization/authorize-http-requests.adoc",
+              "url": "/5.7.6/servlet/authorization/authorize-http-requests.html",
+              "title": "Authorize HttpServletRequests with AuthorizationFilter"
+            },
+            {
+              "path": "servlet/authorization/authorize-requests.adoc",
+              "url": "/5.7.6/servlet/authorization/authorize-requests.html",
+              "title": "Authorize HttpServletRequest with FilterSecurityInterceptor"
+            },
+            {
+              "path": "servlet/authorization/events.adoc",
+              "url": "/5.7.6/servlet/authorization/events.html",
+              "title": "Authorization Events"
+            },
+            {
+              "path": "servlet/authorization/expression-based.adoc",
+              "url": "/5.7.6/servlet/authorization/expression-based.html",
+              "title": "Expression-Based Access Control"
+            },
+            {
+              "path": "servlet/authorization/method-security.adoc",
+              "url": "/5.7.6/servlet/authorization/method-security.html",
+              "title": "Method Security"
+            },
+            {
+              "path": "servlet/authorization/secure-objects.adoc",
+              "url": "/5.7.6/servlet/authorization/secure-objects.html",
+              "title": "Secure Object Implementations"
+            },
+            {
+              "path": "servlet/configuration/java.adoc",
+              "url": "/5.7.6/servlet/configuration/java.html",
+              "title": "Java Configuration"
+            },
+            {
+              "path": "servlet/configuration/kotlin.adoc",
+              "url": "/5.7.6/servlet/configuration/kotlin.html",
+              "title": "Kotlin Configuration"
+            },
+            {
+              "path": "servlet/configuration/xml-namespace.adoc",
+              "url": "/5.7.6/servlet/configuration/xml-namespace.html",
+              "title": "Security Namespace Configuration"
+            },
+            {
+              "path": "servlet/exploits/index.adoc",
+              "url": "/5.7.6/servlet/exploits/index.html",
+              "title": "Protection Against Exploits"
+            },
+            {
+              "path": "servlet/exploits/csrf.adoc",
+              "url": "/5.7.6/servlet/exploits/csrf.html",
+              "title": "Cross Site Request Forgery (CSRF) for Servlet Environments"
+            },
+            {
+              "path": "servlet/exploits/firewall.adoc",
+              "url": "/5.7.6/servlet/exploits/firewall.html",
+              "title": "HttpFirewall"
+            },
+            {
+              "path": "servlet/exploits/headers.adoc",
+              "url": "/5.7.6/servlet/exploits/headers.html",
+              "title": "Security HTTP Response Headers"
+            },
+            {
+              "path": "servlet/exploits/http.adoc",
+              "url": "/5.7.6/servlet/exploits/http.html",
+              "title": "HTTP"
+            },
+            {
+              "path": "servlet/getting-started.adoc",
+              "url": "/5.7.6/servlet/getting-started.html",
+              "title": "Hello Spring Security"
+            },
+            {
+              "path": "servlet/integrations/index.adoc",
+              "url": "/5.7.6/servlet/integrations/index.html",
+              "title": "Integrations"
+            },
+            {
+              "path": "servlet/integrations/concurrency.adoc",
+              "url": "/5.7.6/servlet/integrations/concurrency.html",
+              "title": "Concurrency Support"
+            },
+            {
+              "path": "servlet/integrations/cors.adoc",
+              "url": "/5.7.6/servlet/integrations/cors.html",
+              "title": "CORS"
+            },
+            {
+              "path": "servlet/integrations/data.adoc",
+              "url": "/5.7.6/servlet/integrations/data.html",
+              "title": "Spring Data Integration"
+            },
+            {
+              "path": "servlet/integrations/jackson.adoc",
+              "url": "/5.7.6/servlet/integrations/jackson.html",
+              "title": "Jackson Support"
+            },
+            {
+              "path": "servlet/integrations/jsp-taglibs.adoc",
+              "url": "/5.7.6/servlet/integrations/jsp-taglibs.html",
+              "title": "JSP Tag Libraries"
+            },
+            {
+              "path": "servlet/integrations/localization.adoc",
+              "url": "/5.7.6/servlet/integrations/localization.html",
+              "title": "Localization"
+            },
+            {
+              "path": "servlet/integrations/mvc.adoc",
+              "url": "/5.7.6/servlet/integrations/mvc.html",
+              "title": "Spring MVC Integration"
+            },
+            {
+              "path": "servlet/integrations/servlet-api.adoc",
+              "url": "/5.7.6/servlet/integrations/servlet-api.html",
+              "title": "Servlet API integration"
+            },
+            {
+              "path": "servlet/integrations/websocket.adoc",
+              "url": "/5.7.6/servlet/integrations/websocket.html",
+              "title": "WebSocket Security"
+            },
+            {
+              "path": "servlet/oauth2/index.adoc",
+              "url": "/5.7.6/servlet/oauth2/index.html",
+              "title": "OAuth2"
+            },
+            {
+              "path": "servlet/oauth2/client/index.adoc",
+              "url": "/5.7.6/servlet/oauth2/client/index.html",
+              "title": "OAuth 2.0 Client"
+            },
+            {
+              "path": "servlet/oauth2/client/authorization-grants.adoc",
+              "url": "/5.7.6/servlet/oauth2/client/authorization-grants.html",
+              "title": "Authorization Grant Support"
+            },
+            {
+              "path": "servlet/oauth2/client/authorized-clients.adoc",
+              "url": "/5.7.6/servlet/oauth2/client/authorized-clients.html",
+              "title": "Authorized Client Features"
+            },
+            {
+              "path": "servlet/oauth2/client/client-authentication.adoc",
+              "url": "/5.7.6/servlet/oauth2/client/client-authentication.html",
+              "title": "Client Authentication Support"
+            },
+            {
+              "path": "servlet/oauth2/client/core.adoc",
+              "url": "/5.7.6/servlet/oauth2/client/core.html",
+              "title": "Core Interfaces / Classes"
+            },
+            {
+              "path": "servlet/oauth2/login/index.adoc",
+              "url": "/5.7.6/servlet/oauth2/login/index.html",
+              "title": "OAuth 2.0 Login"
+            },
+            {
+              "path": "servlet/oauth2/login/advanced.adoc",
+              "url": "/5.7.6/servlet/oauth2/login/advanced.html",
+              "title": "Advanced Configuration"
+            },
+            {
+              "path": "servlet/oauth2/login/core.adoc",
+              "url": "/5.7.6/servlet/oauth2/login/core.html",
+              "title": "Core Configuration"
+            },
+            {
+              "path": "servlet/oauth2/resource-server/index.adoc",
+              "url": "/5.7.6/servlet/oauth2/resource-server/index.html",
+              "title": "OAuth 2.0 Resource Server"
+            },
+            {
+              "path": "servlet/oauth2/resource-server/bearer-tokens.adoc",
+              "url": "/5.7.6/servlet/oauth2/resource-server/bearer-tokens.html",
+              "title": "OAuth 2.0 Bearer Tokens"
+            },
+            {
+              "path": "servlet/oauth2/resource-server/jwt.adoc",
+              "url": "/5.7.6/servlet/oauth2/resource-server/jwt.html",
+              "title": "OAuth 2.0 Resource Server JWT"
+            },
+            {
+              "path": "servlet/oauth2/resource-server/multitenancy.adoc",
+              "url": "/5.7.6/servlet/oauth2/resource-server/multitenancy.html",
+              "title": "OAuth 2.0 Resource Server Multi-tenancy"
+            },
+            {
+              "path": "servlet/oauth2/resource-server/opaque-token.adoc",
+              "url": "/5.7.6/servlet/oauth2/resource-server/opaque-token.html",
+              "title": "OAuth 2.0 Resource Server Opaque Token"
+            },
+            {
+              "path": "servlet/saml2/index.adoc",
+              "url": "/5.7.6/servlet/saml2/index.html",
+              "title": "SAML2"
+            },
+            {
+              "path": "servlet/saml2/login/index.adoc",
+              "url": "/5.7.6/servlet/saml2/login/index.html",
+              "title": "SAML 2.0 Login"
+            },
+            {
+              "path": "servlet/saml2/login/authentication-requests.adoc",
+              "url": "/5.7.6/servlet/saml2/login/authentication-requests.html",
+              "title": "Producing <code>&lt;saml2:AuthnRequest&gt;</code>s"
+            },
+            {
+              "path": "servlet/saml2/login/authentication.adoc",
+              "url": "/5.7.6/servlet/saml2/login/authentication.html",
+              "title": "Authenticating <code>&lt;saml2:Response&gt;</code>s"
+            },
+            {
+              "path": "servlet/saml2/login/overview.adoc",
+              "url": "/5.7.6/servlet/saml2/login/overview.html",
+              "title": "SAML 2.0 Login Overview"
+            },
+            {
+              "path": "servlet/saml2/logout.adoc",
+              "url": "/5.7.6/servlet/saml2/logout.html",
+              "title": "Performing Single Logout"
+            },
+            {
+              "path": "servlet/saml2/metadata.adoc",
+              "url": "/5.7.6/servlet/saml2/metadata.html",
+              "title": "Producing <code>&lt;saml2:SPSSODescriptor&gt;</code> Metadata"
+            },
+            {
+              "path": "servlet/test/index.adoc",
+              "url": "/5.7.6/servlet/test/index.html",
+              "title": "Testing"
+            },
+            {
+              "path": "servlet/test/method.adoc",
+              "url": "/5.7.6/servlet/test/method.html",
+              "title": "Testing Method Security"
+            },
+            {
+              "path": "servlet/test/mockmvc/index.adoc",
+              "url": "/5.7.6/servlet/test/mockmvc/index.html",
+              "title": "Spring MVC Test Integration"
+            },
+            {
+              "path": "servlet/test/mockmvc/authentication.adoc",
+              "url": "/5.7.6/servlet/test/mockmvc/authentication.html",
+              "title": "Running a Test as a User in Spring MVC Test"
+            },
+            {
+              "path": "servlet/test/mockmvc/csrf.adoc",
+              "url": "/5.7.6/servlet/test/mockmvc/csrf.html",
+              "title": "Testing with CSRF Protection"
+            },
+            {
+              "path": "servlet/test/mockmvc/form-login.adoc",
+              "url": "/5.7.6/servlet/test/mockmvc/form-login.html",
+              "title": "Testing Form Based Authentication"
+            },
+            {
+              "path": "servlet/test/mockmvc/http-basic.adoc",
+              "url": "/5.7.6/servlet/test/mockmvc/http-basic.html",
+              "title": "Testing HTTP Basic Authentication"
+            },
+            {
+              "path": "servlet/test/mockmvc/logout.adoc",
+              "url": "/5.7.6/servlet/test/mockmvc/logout.html",
+              "title": "Testing Logout"
+            },
+            {
+              "path": "servlet/test/mockmvc/oauth2.adoc",
+              "url": "/5.7.6/servlet/test/mockmvc/oauth2.html",
+              "title": "Testing OAuth 2.0"
+            },
+            {
+              "path": "servlet/test/mockmvc/request-builders.adoc",
+              "url": "/5.7.6/servlet/test/mockmvc/request-builders.html"
+            },
+            {
+              "path": "servlet/test/mockmvc/request-post-processors.adoc",
+              "url": "/5.7.6/servlet/test/mockmvc/request-post-processors.html",
+              "title": "SecurityMockMvcRequestPostProcessors"
+            },
+            {
+              "path": "servlet/test/mockmvc/result-handlers.adoc",
+              "url": "/5.7.6/servlet/test/mockmvc/result-handlers.html"
+            },
+            {
+              "path": "servlet/test/mockmvc/result-matchers.adoc",
+              "url": "/5.7.6/servlet/test/mockmvc/result-matchers.html"
+            },
+            {
+              "path": "servlet/test/mockmvc/setup.adoc",
+              "url": "/5.7.6/servlet/test/mockmvc/setup.html",
+              "title": "Setting Up MockMvc and Spring Security"
+            },
+            {
+              "path": "whats-new.adoc",
+              "url": "/5.7.6/whats-new.html",
+              "title": "What&#8217;s New in Spring Security 5.7"
+            }
+          ]
+        },
+        "5.7.5": {
+          "url": "/index.html",
+          "pages": [
+            {
+              "path": "index.adoc",
+              "url": "/index.html",
+              "title": "Spring Security"
+            },
+            {
+              "path": "community.adoc",
+              "url": "/community.html",
+              "title": "Spring Security Community"
+            },
+            {
+              "path": "features/index.adoc",
+              "url": "/features/index.html",
+              "title": "Features"
+            },
+            {
+              "path": "features/authentication/index.adoc",
+              "url": "/features/authentication/index.html",
+              "title": "Authentication"
+            },
+            {
+              "path": "features/authentication/password-storage.adoc",
+              "url": "/features/authentication/password-storage.html",
+              "title": "Password Storage"
+            },
+            {
+              "path": "features/authorization/index.adoc",
+              "url": "/features/authorization/index.html",
+              "title": "Authorization"
+            },
+            {
+              "path": "features/exploits/index.adoc",
+              "url": "/features/exploits/index.html",
+              "title": "Protection Against Exploits"
+            },
+            {
+              "path": "features/exploits/csrf.adoc",
+              "url": "/features/exploits/csrf.html",
+              "title": "Cross Site Request Forgery (CSRF)"
+            },
+            {
+              "path": "features/exploits/headers.adoc",
+              "url": "/features/exploits/headers.html",
+              "title": "Security HTTP Response Headers"
+            },
+            {
+              "path": "features/exploits/http.adoc",
+              "url": "/features/exploits/http.html",
+              "title": "HTTP"
+            },
+            {
+              "path": "features/integrations/index.adoc",
+              "url": "/features/integrations/index.html",
+              "title": "Integrations"
+            },
+            {
+              "path": "features/integrations/concurrency.adoc",
+              "url": "/features/integrations/concurrency.html",
+              "title": "Concurrency Support"
+            },
+            {
+              "path": "features/integrations/cryptography.adoc",
+              "url": "/features/integrations/cryptography.html",
+              "title": "Spring Security Crypto Module"
+            },
+            {
+              "path": "features/integrations/data.adoc",
+              "url": "/features/integrations/data.html",
+              "title": "Spring Data Integration"
+            },
+            {
+              "path": "features/integrations/jackson.adoc",
+              "url": "/features/integrations/jackson.html",
+              "title": "Jackson Support"
+            },
+            {
+              "path": "features/integrations/localization.adoc",
+              "url": "/features/integrations/localization.html",
+              "title": "Localization"
+            },
+            {
+              "path": "getting-spring-security.adoc",
+              "url": "/getting-spring-security.html",
+              "title": "Getting Spring Security"
+            },
+            {
+              "path": "modules.adoc",
+              "url": "/modules.html",
+              "title": "Project Modules and Dependencies"
+            },
+            {
+              "path": "prerequisites.adoc",
+              "url": "/prerequisites.html",
+              "title": "Prerequisites"
+            },
+            {
+              "path": "reactive/index.adoc",
+              "url": "/reactive/index.html",
+              "title": "Reactive Applications"
+            },
+            {
+              "path": "reactive/authentication/logout.adoc",
+              "url": "/reactive/authentication/logout.html",
+              "title": "Logout"
+            },
+            {
+              "path": "reactive/authentication/x509.adoc",
+              "url": "/reactive/authentication/x509.html",
+              "title": "Reactive X.509 Authentication"
+            },
+            {
+              "path": "reactive/authorization/authorize-http-requests.adoc",
+              "url": "/reactive/authorization/authorize-http-requests.html",
+              "title": "Authorize ServerHttpRequest"
+            },
+            {
+              "path": "reactive/authorization/method.adoc",
+              "url": "/reactive/authorization/method.html",
+              "title": "EnableReactiveMethodSecurity"
+            },
+            {
+              "path": "reactive/configuration/webflux.adoc",
+              "url": "/reactive/configuration/webflux.html",
+              "title": "WebFlux Security"
+            },
+            {
+              "path": "reactive/exploits/index.adoc",
+              "url": "/reactive/exploits/index.html",
+              "title": "Protection Against Exploits"
+            },
+            {
+              "path": "reactive/exploits/csrf.adoc",
+              "url": "/reactive/exploits/csrf.html",
+              "title": "Cross Site Request Forgery (CSRF) for WebFlux Environments"
+            },
+            {
+              "path": "reactive/exploits/headers.adoc",
+              "url": "/reactive/exploits/headers.html",
+              "title": "Security HTTP Response Headers"
+            },
+            {
+              "path": "reactive/exploits/http.adoc",
+              "url": "/reactive/exploits/http.html",
+              "title": "HTTP"
+            },
+            {
+              "path": "reactive/getting-started.adoc",
+              "url": "/reactive/getting-started.html",
+              "title": "Getting Started with WebFlux Applications"
+            },
+            {
+              "path": "reactive/integrations/cors.adoc",
+              "url": "/reactive/integrations/cors.html",
+              "title": "CORS"
+            },
+            {
+              "path": "reactive/integrations/rsocket.adoc",
+              "url": "/reactive/integrations/rsocket.html",
+              "title": "RSocket Security"
+            },
+            {
+              "path": "reactive/oauth2/index.adoc",
+              "url": "/reactive/oauth2/index.html",
+              "title": "OAuth2 WebFlux"
+            },
+            {
+              "path": "reactive/oauth2/client/index.adoc",
+              "url": "/reactive/oauth2/client/index.html",
+              "title": "OAuth 2.0 Client"
+            },
+            {
+              "path": "reactive/oauth2/client/authorization-grants.adoc",
+              "url": "/reactive/oauth2/client/authorization-grants.html",
+              "title": "Authorization Grant Support"
+            },
+            {
+              "path": "reactive/oauth2/client/authorized-clients.adoc",
+              "url": "/reactive/oauth2/client/authorized-clients.html",
+              "title": "Authorized Clients"
+            },
+            {
+              "path": "reactive/oauth2/client/client-authentication.adoc",
+              "url": "/reactive/oauth2/client/client-authentication.html",
+              "title": "Client Authentication Support"
+            },
+            {
+              "path": "reactive/oauth2/client/core.adoc",
+              "url": "/reactive/oauth2/client/core.html",
+              "title": "Core Interfaces / Classes"
+            },
+            {
+              "path": "reactive/oauth2/login/index.adoc",
+              "url": "/reactive/oauth2/login/index.html",
+              "title": "OAuth 2.0 Login"
+            },
+            {
+              "path": "reactive/oauth2/login/advanced.adoc",
+              "url": "/reactive/oauth2/login/advanced.html",
+              "title": "Advanced Configuration"
+            },
+            {
+              "path": "reactive/oauth2/login/core.adoc",
+              "url": "/reactive/oauth2/login/core.html",
+              "title": "Core Configuration"
+            },
+            {
+              "path": "reactive/oauth2/resource-server/index.adoc",
+              "url": "/reactive/oauth2/resource-server/index.html",
+              "title": "OAuth 2.0 Resource Server"
+            },
+            {
+              "path": "reactive/oauth2/resource-server/bearer-tokens.adoc",
+              "url": "/reactive/oauth2/resource-server/bearer-tokens.html",
+              "title": "OAuth 2.0 Resource Server Bearer Tokens"
+            },
+            {
+              "path": "reactive/oauth2/resource-server/jwt.adoc",
+              "url": "/reactive/oauth2/resource-server/jwt.html",
+              "title": "OAuth 2.0 Resource Server JWT"
+            },
+            {
+              "path": "reactive/oauth2/resource-server/multitenancy.adoc",
+              "url": "/reactive/oauth2/resource-server/multitenancy.html",
+              "title": "OAuth 2.0 Resource Server Multi-tenancy"
+            },
+            {
+              "path": "reactive/oauth2/resource-server/opaque-token.adoc",
+              "url": "/reactive/oauth2/resource-server/opaque-token.html",
+              "title": "OAuth 2.0 Resource Server Opaque Token"
+            },
+            {
+              "path": "reactive/test/index.adoc",
+              "url": "/reactive/test/index.html",
+              "title": "Reactive Test Support"
+            },
+            {
+              "path": "reactive/test/method.adoc",
+              "url": "/reactive/test/method.html",
+              "title": "Testing Method Security"
+            },
+            {
+              "path": "reactive/test/web/index.adoc",
+              "url": "/reactive/test/web/index.html",
+              "title": "Testing Web Security"
+            },
+            {
+              "path": "reactive/test/web/authentication.adoc",
+              "url": "/reactive/test/web/authentication.html",
+              "title": "Testing Authentication"
+            },
+            {
+              "path": "reactive/test/web/csrf.adoc",
+              "url": "/reactive/test/web/csrf.html",
+              "title": "Testing with CSRF"
+            },
+            {
+              "path": "reactive/test/web/oauth2.adoc",
+              "url": "/reactive/test/web/oauth2.html",
+              "title": "Testing OAuth 2.0"
+            },
+            {
+              "path": "reactive/test/web/setup.adoc",
+              "url": "/reactive/test/web/setup.html",
+              "title": "WebTestClient Security Setup"
+            },
+            {
+              "path": "samples.adoc",
+              "url": "/samples.html",
+              "title": "Samples"
+            },
+            {
+              "path": "servlet/index.adoc",
+              "url": "/servlet/index.html",
+              "title": "Servlet Applications"
+            },
+            {
+              "path": "servlet/appendix/index.adoc",
+              "url": "/servlet/appendix/index.html",
+              "title": "Appendix"
+            },
+            {
+              "path": "servlet/appendix/database-schema.adoc",
+              "url": "/servlet/appendix/database-schema.html",
+              "title": "Security Database Schema"
+            },
+            {
+              "path": "servlet/appendix/faq.adoc",
+              "url": "/servlet/appendix/faq.html",
+              "title": "Spring Security FAQ"
+            },
+            {
+              "path": "servlet/appendix/namespace/index.adoc",
+              "url": "/servlet/appendix/namespace/index.html",
+              "title": "The Security Namespace"
+            },
+            {
+              "path": "servlet/appendix/namespace/authentication-manager.adoc",
+              "url": "/servlet/appendix/namespace/authentication-manager.html",
+              "title": "Authentication Services"
+            },
+            {
+              "path": "servlet/appendix/namespace/http.adoc",
+              "url": "/servlet/appendix/namespace/http.html",
+              "title": "Web Application Security"
+            },
+            {
+              "path": "servlet/appendix/namespace/ldap.adoc",
+              "url": "/servlet/appendix/namespace/ldap.html",
+              "title": "LDAP Namespace Options"
+            },
+            {
+              "path": "servlet/appendix/namespace/method-security.adoc",
+              "url": "/servlet/appendix/namespace/method-security.html",
+              "title": "Method Security"
+            },
+            {
+              "path": "servlet/appendix/namespace/websocket.adoc",
+              "url": "/servlet/appendix/namespace/websocket.html",
+              "title": "WebSocket Security"
+            },
+            {
+              "path": "servlet/appendix/proxy-server.adoc",
+              "url": "/servlet/appendix/proxy-server.html",
+              "title": "Proxy Server Configuration"
+            },
+            {
+              "path": "servlet/architecture.adoc",
+              "url": "/servlet/architecture.html",
+              "title": "Architecture"
+            },
+            {
+              "path": "servlet/authentication/index.adoc",
+              "url": "/servlet/authentication/index.html",
+              "title": "Authentication"
+            },
+            {
+              "path": "servlet/authentication/anonymous.adoc",
+              "url": "/servlet/authentication/anonymous.html",
+              "title": "Anonymous Authentication"
+            },
+            {
+              "path": "servlet/authentication/architecture.adoc",
+              "url": "/servlet/authentication/architecture.html",
+              "title": "Servlet Authentication Architecture"
+            },
+            {
+              "path": "servlet/authentication/cas.adoc",
+              "url": "/servlet/authentication/cas.html",
+              "title": "CAS Authentication"
+            },
+            {
+              "path": "servlet/authentication/events.adoc",
+              "url": "/servlet/authentication/events.html",
+              "title": "Authentication Events"
+            },
+            {
+              "path": "servlet/authentication/jaas.adoc",
+              "url": "/servlet/authentication/jaas.html",
+              "title": "Java Authentication and Authorization Service (JAAS) Provider"
+            },
+            {
+              "path": "servlet/authentication/logout.adoc",
+              "url": "/servlet/authentication/logout.html",
+              "title": "Handling Logouts"
+            },
+            {
+              "path": "servlet/authentication/openid.adoc",
+              "url": "/servlet/authentication/openid.html",
+              "title": "OpenID Support"
+            },
+            {
+              "path": "servlet/authentication/passwords/index.adoc",
+              "url": "/servlet/authentication/passwords/index.html",
+              "title": "Username/Password Authentication"
+            },
+            {
+              "path": "servlet/authentication/passwords/basic.adoc",
+              "url": "/servlet/authentication/passwords/basic.html",
+              "title": "Basic Authentication"
+            },
+            {
+              "path": "servlet/authentication/passwords/dao-authentication-provider.adoc",
+              "url": "/servlet/authentication/passwords/dao-authentication-provider.html",
+              "title": "DaoAuthenticationProvider"
+            },
+            {
+              "path": "servlet/authentication/passwords/digest.adoc",
+              "url": "/servlet/authentication/passwords/digest.html",
+              "title": "Digest Authentication"
+            },
+            {
+              "path": "servlet/authentication/passwords/form.adoc",
+              "url": "/servlet/authentication/passwords/form.html",
+              "title": "Form Login"
+            },
+            {
+              "path": "servlet/authentication/passwords/in-memory.adoc",
+              "url": "/servlet/authentication/passwords/in-memory.html",
+              "title": "In-Memory Authentication"
+            },
+            {
+              "path": "servlet/authentication/passwords/input.adoc",
+              "url": "/servlet/authentication/passwords/input.html",
+              "title": "Reading the Username &amp; Password"
+            },
+            {
+              "path": "servlet/authentication/passwords/jdbc.adoc",
+              "url": "/servlet/authentication/passwords/jdbc.html",
+              "title": "JDBC Authentication"
+            },
+            {
+              "path": "servlet/authentication/passwords/ldap.adoc",
+              "url": "/servlet/authentication/passwords/ldap.html",
+              "title": "LDAP Authentication"
+            },
+            {
+              "path": "servlet/authentication/passwords/password-encoder.adoc",
+              "url": "/servlet/authentication/passwords/password-encoder.html",
+              "title": "PasswordEncoder"
+            },
+            {
+              "path": "servlet/authentication/passwords/storage.adoc",
+              "url": "/servlet/authentication/passwords/storage.html",
+              "title": "Storage Mechanisms"
+            },
+            {
+              "path": "servlet/authentication/passwords/user-details-service.adoc",
+              "url": "/servlet/authentication/passwords/user-details-service.html",
+              "title": "UserDetailsService"
+            },
+            {
+              "path": "servlet/authentication/passwords/user-details.adoc",
+              "url": "/servlet/authentication/passwords/user-details.html",
+              "title": "UserDetails"
+            },
+            {
+              "path": "servlet/authentication/persistence.adoc",
+              "url": "/servlet/authentication/persistence.html",
+              "title": "Persisting Authentication"
+            },
+            {
+              "path": "servlet/authentication/preauth.adoc",
+              "url": "/servlet/authentication/preauth.html",
+              "title": "Pre-Authentication Scenarios"
+            },
+            {
+              "path": "servlet/authentication/rememberme.adoc",
+              "url": "/servlet/authentication/rememberme.html",
+              "title": "Remember-Me Authentication"
+            },
+            {
+              "path": "servlet/authentication/runas.adoc",
+              "url": "/servlet/authentication/runas.html",
+              "title": "Run-As Authentication Replacement"
+            },
+            {
+              "path": "servlet/authentication/session-management.adoc",
+              "url": "/servlet/authentication/session-management.html",
+              "title": "Session Management"
+            },
+            {
+              "path": "servlet/authentication/x509.adoc",
+              "url": "/servlet/authentication/x509.html",
+              "title": "X.509 Authentication"
+            },
+            {
+              "path": "servlet/authorization/index.adoc",
+              "url": "/servlet/authorization/index.html",
+              "title": "Authorization"
+            },
+            {
+              "path": "servlet/authorization/acls.adoc",
+              "url": "/servlet/authorization/acls.html",
+              "title": "Domain Object Security (ACLs)"
+            },
+            {
+              "path": "servlet/authorization/architecture.adoc",
+              "url": "/servlet/authorization/architecture.html",
+              "title": "Authorization Architecture"
+            },
+            {
+              "path": "servlet/authorization/authorize-http-requests.adoc",
+              "url": "/servlet/authorization/authorize-http-requests.html",
+              "title": "Authorize HttpServletRequests with AuthorizationFilter"
+            },
+            {
+              "path": "servlet/authorization/authorize-requests.adoc",
+              "url": "/servlet/authorization/authorize-requests.html",
+              "title": "Authorize HttpServletRequest with FilterSecurityInterceptor"
+            },
+            {
+              "path": "servlet/authorization/events.adoc",
+              "url": "/servlet/authorization/events.html",
+              "title": "Authorization Events"
+            },
+            {
+              "path": "servlet/authorization/expression-based.adoc",
+              "url": "/servlet/authorization/expression-based.html",
+              "title": "Expression-Based Access Control"
+            },
+            {
+              "path": "servlet/authorization/method-security.adoc",
+              "url": "/servlet/authorization/method-security.html",
+              "title": "Method Security"
+            },
+            {
+              "path": "servlet/authorization/secure-objects.adoc",
+              "url": "/servlet/authorization/secure-objects.html",
+              "title": "Secure Object Implementations"
+            },
+            {
+              "path": "servlet/configuration/java.adoc",
+              "url": "/servlet/configuration/java.html",
+              "title": "Java Configuration"
+            },
+            {
+              "path": "servlet/configuration/kotlin.adoc",
+              "url": "/servlet/configuration/kotlin.html",
+              "title": "Kotlin Configuration"
+            },
+            {
+              "path": "servlet/configuration/xml-namespace.adoc",
+              "url": "/servlet/configuration/xml-namespace.html",
+              "title": "Security Namespace Configuration"
+            },
+            {
+              "path": "servlet/exploits/index.adoc",
+              "url": "/servlet/exploits/index.html",
+              "title": "Protection Against Exploits"
+            },
+            {
+              "path": "servlet/exploits/csrf.adoc",
+              "url": "/servlet/exploits/csrf.html",
+              "title": "Cross Site Request Forgery (CSRF) for Servlet Environments"
+            },
+            {
+              "path": "servlet/exploits/firewall.adoc",
+              "url": "/servlet/exploits/firewall.html",
+              "title": "HttpFirewall"
+            },
+            {
+              "path": "servlet/exploits/headers.adoc",
+              "url": "/servlet/exploits/headers.html",
+              "title": "Security HTTP Response Headers"
+            },
+            {
+              "path": "servlet/exploits/http.adoc",
+              "url": "/servlet/exploits/http.html",
+              "title": "HTTP"
+            },
+            {
+              "path": "servlet/getting-started.adoc",
+              "url": "/servlet/getting-started.html",
+              "title": "Hello Spring Security"
+            },
+            {
+              "path": "servlet/integrations/index.adoc",
+              "url": "/servlet/integrations/index.html",
+              "title": "Integrations"
+            },
+            {
+              "path": "servlet/integrations/concurrency.adoc",
+              "url": "/servlet/integrations/concurrency.html",
+              "title": "Concurrency Support"
+            },
+            {
+              "path": "servlet/integrations/cors.adoc",
+              "url": "/servlet/integrations/cors.html",
+              "title": "CORS"
+            },
+            {
+              "path": "servlet/integrations/data.adoc",
+              "url": "/servlet/integrations/data.html",
+              "title": "Spring Data Integration"
+            },
+            {
+              "path": "servlet/integrations/jackson.adoc",
+              "url": "/servlet/integrations/jackson.html",
+              "title": "Jackson Support"
+            },
+            {
+              "path": "servlet/integrations/jsp-taglibs.adoc",
+              "url": "/servlet/integrations/jsp-taglibs.html",
+              "title": "JSP Tag Libraries"
+            },
+            {
+              "path": "servlet/integrations/localization.adoc",
+              "url": "/servlet/integrations/localization.html",
+              "title": "Localization"
+            },
+            {
+              "path": "servlet/integrations/mvc.adoc",
+              "url": "/servlet/integrations/mvc.html",
+              "title": "Spring MVC Integration"
+            },
+            {
+              "path": "servlet/integrations/servlet-api.adoc",
+              "url": "/servlet/integrations/servlet-api.html",
+              "title": "Servlet API integration"
+            },
+            {
+              "path": "servlet/integrations/websocket.adoc",
+              "url": "/servlet/integrations/websocket.html",
+              "title": "WebSocket Security"
+            },
+            {
+              "path": "servlet/oauth2/index.adoc",
+              "url": "/servlet/oauth2/index.html",
+              "title": "OAuth2"
+            },
+            {
+              "path": "servlet/oauth2/client/index.adoc",
+              "url": "/servlet/oauth2/client/index.html",
+              "title": "OAuth 2.0 Client"
+            },
+            {
+              "path": "servlet/oauth2/client/authorization-grants.adoc",
+              "url": "/servlet/oauth2/client/authorization-grants.html",
+              "title": "Authorization Grant Support"
+            },
+            {
+              "path": "servlet/oauth2/client/authorized-clients.adoc",
+              "url": "/servlet/oauth2/client/authorized-clients.html",
+              "title": "Authorized Client Features"
+            },
+            {
+              "path": "servlet/oauth2/client/client-authentication.adoc",
+              "url": "/servlet/oauth2/client/client-authentication.html",
+              "title": "Client Authentication Support"
+            },
+            {
+              "path": "servlet/oauth2/client/core.adoc",
+              "url": "/servlet/oauth2/client/core.html",
+              "title": "Core Interfaces / Classes"
+            },
+            {
+              "path": "servlet/oauth2/login/index.adoc",
+              "url": "/servlet/oauth2/login/index.html",
+              "title": "OAuth 2.0 Login"
+            },
+            {
+              "path": "servlet/oauth2/login/advanced.adoc",
+              "url": "/servlet/oauth2/login/advanced.html",
+              "title": "Advanced Configuration"
+            },
+            {
+              "path": "servlet/oauth2/login/core.adoc",
+              "url": "/servlet/oauth2/login/core.html",
+              "title": "Core Configuration"
+            },
+            {
+              "path": "servlet/oauth2/resource-server/index.adoc",
+              "url": "/servlet/oauth2/resource-server/index.html",
+              "title": "OAuth 2.0 Resource Server"
+            },
+            {
+              "path": "servlet/oauth2/resource-server/bearer-tokens.adoc",
+              "url": "/servlet/oauth2/resource-server/bearer-tokens.html",
+              "title": "OAuth 2.0 Bearer Tokens"
+            },
+            {
+              "path": "servlet/oauth2/resource-server/jwt.adoc",
+              "url": "/servlet/oauth2/resource-server/jwt.html",
+              "title": "OAuth 2.0 Resource Server JWT"
+            },
+            {
+              "path": "servlet/oauth2/resource-server/multitenancy.adoc",
+              "url": "/servlet/oauth2/resource-server/multitenancy.html",
+              "title": "OAuth 2.0 Resource Server Multi-tenancy"
+            },
+            {
+              "path": "servlet/oauth2/resource-server/opaque-token.adoc",
+              "url": "/servlet/oauth2/resource-server/opaque-token.html",
+              "title": "OAuth 2.0 Resource Server Opaque Token"
+            },
+            {
+              "path": "servlet/saml2/index.adoc",
+              "url": "/servlet/saml2/index.html",
+              "title": "SAML2"
+            },
+            {
+              "path": "servlet/saml2/login/index.adoc",
+              "url": "/servlet/saml2/login/index.html",
+              "title": "SAML 2.0 Login"
+            },
+            {
+              "path": "servlet/saml2/login/authentication-requests.adoc",
+              "url": "/servlet/saml2/login/authentication-requests.html",
+              "title": "Producing <code>&lt;saml2:AuthnRequest&gt;</code>s"
+            },
+            {
+              "path": "servlet/saml2/login/authentication.adoc",
+              "url": "/servlet/saml2/login/authentication.html",
+              "title": "Authenticating <code>&lt;saml2:Response&gt;</code>s"
+            },
+            {
+              "path": "servlet/saml2/login/overview.adoc",
+              "url": "/servlet/saml2/login/overview.html",
+              "title": "SAML 2.0 Login Overview"
+            },
+            {
+              "path": "servlet/saml2/logout.adoc",
+              "url": "/servlet/saml2/logout.html",
+              "title": "Performing Single Logout"
+            },
+            {
+              "path": "servlet/saml2/metadata.adoc",
+              "url": "/servlet/saml2/metadata.html",
+              "title": "Producing <code>&lt;saml2:SPSSODescriptor&gt;</code> Metadata"
+            },
+            {
+              "path": "servlet/test/index.adoc",
+              "url": "/servlet/test/index.html",
+              "title": "Testing"
+            },
+            {
+              "path": "servlet/test/method.adoc",
+              "url": "/servlet/test/method.html",
+              "title": "Testing Method Security"
+            },
+            {
+              "path": "servlet/test/mockmvc/index.adoc",
+              "url": "/servlet/test/mockmvc/index.html",
+              "title": "Spring MVC Test Integration"
+            },
+            {
+              "path": "servlet/test/mockmvc/authentication.adoc",
+              "url": "/servlet/test/mockmvc/authentication.html",
+              "title": "Running a Test as a User in Spring MVC Test"
+            },
+            {
+              "path": "servlet/test/mockmvc/csrf.adoc",
+              "url": "/servlet/test/mockmvc/csrf.html",
+              "title": "Testing with CSRF Protection"
+            },
+            {
+              "path": "servlet/test/mockmvc/form-login.adoc",
+              "url": "/servlet/test/mockmvc/form-login.html",
+              "title": "Testing Form Based Authentication"
+            },
+            {
+              "path": "servlet/test/mockmvc/http-basic.adoc",
+              "url": "/servlet/test/mockmvc/http-basic.html",
+              "title": "Testing HTTP Basic Authentication"
+            },
+            {
+              "path": "servlet/test/mockmvc/logout.adoc",
+              "url": "/servlet/test/mockmvc/logout.html",
+              "title": "Testing Logout"
+            },
+            {
+              "path": "servlet/test/mockmvc/oauth2.adoc",
+              "url": "/servlet/test/mockmvc/oauth2.html",
+              "title": "Testing OAuth 2.0"
+            },
+            {
+              "path": "servlet/test/mockmvc/request-builders.adoc",
+              "url": "/servlet/test/mockmvc/request-builders.html"
+            },
+            {
+              "path": "servlet/test/mockmvc/request-post-processors.adoc",
+              "url": "/servlet/test/mockmvc/request-post-processors.html",
+              "title": "SecurityMockMvcRequestPostProcessors"
+            },
+            {
+              "path": "servlet/test/mockmvc/result-handlers.adoc",
+              "url": "/servlet/test/mockmvc/result-handlers.html"
+            },
+            {
+              "path": "servlet/test/mockmvc/result-matchers.adoc",
+              "url": "/servlet/test/mockmvc/result-matchers.html"
+            },
+            {
+              "path": "servlet/test/mockmvc/setup.adoc",
+              "url": "/servlet/test/mockmvc/setup.html",
+              "title": "Setting Up MockMvc and Spring Security"
+            },
+            {
+              "path": "whats-new.adoc",
+              "url": "/whats-new.html",
+              "title": "What&#8217;s New in Spring Security 5.7"
+            }
+          ]
+        }
+      }
+    }
+  }
+}

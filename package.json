@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@antora/atlas-extension": "gitlab:antora/antora-atlas-extension",
+    "@antora/collector-extension": "1.0.0-alpha.2",
+    "@opendevise/antora-release-line-extension": "1.0.0-alpha.2",
+    "antora": "3.2.0-alpha.2"
+  }
+}

@@ -6,6 +6,9 @@ antora:
   - ./lib/antora/extensions/version-fix.js
   - '@antora/atlas-extension'
   - '@opendevise/antora-release-line-extension'
+runtime:
+  log:
+    level: info
 site:
   title: Spring Security
   url: https://docs.spring.io/spring-security/reference
@@ -20,6 +23,7 @@ content:
     start_path: docs
 asciidoc:
   attributes:
+    primary-site-manifest-url: ./site-manifest.json # temporary for testing purposes
     page-pagination: ''
     hide-uri-scheme: '@'
 urls:

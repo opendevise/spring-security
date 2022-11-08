@@ -11,9 +11,9 @@ antora {
 		'ALGOLIA_APP_ID': '244V8V9FGG',
 		'ALGOLIA_INDEX_NAME': 'security-docs'
     ]
-	dependencies = [
-		'@antora/atlas-extension': '1.0.0-alpha.1',
-		'@antora/collector-extension': '1.0.0-alpha.2',
-		'@opendevise/antora-release-line-extension': '1.0.0-alpha.2'
-	]
+	//dependencies = [
+	//	'@antora/atlas-extension': '1.0.0-alpha.1',
+	//	'@antora/collector-extension': '1.0.0-alpha.2',
+	//	'@opendevise/antora-release-line-extension': '1.0.0-alpha.2'
+	//]
 }

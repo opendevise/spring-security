@@ -13,9 +13,9 @@ fi
 
 (
   set -e
-  install -m 600 -D /dev/null "$SSH_PRIVATE_KEY_PATH"
-  echo "$SSH_PRIVATE_KEY" > "$SSH_PRIVATE_KEY_PATH"
-  echo "$SSH_KNOWN_HOST" > ~/.ssh/known_hosts
+  #install -m 600 -D /dev/null "$SSH_PRIVATE_KEY_PATH"
+  #echo "$SSH_PRIVATE_KEY" > "$SSH_PRIVATE_KEY_PATH"
+  #echo "$SSH_KNOWN_HOST" > ~/.ssh/known_hosts
   if [ -n "$BUILD_REFNAME" ]; then
     VERSION_DIR=`find build/site -maxdepth 1 -type d \( -name '[0-9]*' \) -printf '%f\t' | cut -f1`
     if [ -n "$VERSION_DIR" ]; then
@@ -29,6 +29,6 @@ fi
 )
 exit_code=$?
 
-rm -f "$SSH_PRIVATE_KEY_PATH"
+#rm -f "$SSH_PRIVATE_KEY_PATH"
 
 exit $exit_code
