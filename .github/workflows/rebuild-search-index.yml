@@ -4,7 +4,7 @@ on:
 permissions: read-all
 jobs:
   build:
-    if: github.repository_owner == 'spring-projects'
+    #if: github.repository_owner == 'spring-projects'
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
@@ -14,9 +14,7 @@ jobs:
     - name: Configure Indexer
       run: |
         CONFIG_FILE=.github/actions/docsearch-config.json
-        if [ ! -f $CONFIG_FILE ]; then
-          curl -sL -o $CONFIG_FILE $(node -p "require('fs').readFileSync('antora-playbook.yml', 'utf8').match(/^  url: (.*)/m)[1]")/docsearch-config.json
-        fi
+        curl -sL -o $CONFIG_FILE $(node -p "require('fs').readFileSync('antora-playbook.yml', 'utf8').match(/^  url: (.*)/m)[1]")/docsearch-config.json
         INDEX_NAME=$(node -p "JSON.parse(require('fs').readFileSync('$CONFIG_FILE')).index_name")
         echo "CONFIG_FILE=${CONFIG_FILE}" >> $GITHUB_ENV
         echo "INDEX_NAME_TMP=${INDEX_NAME}-${GITHUB_RUN_ID}" >> $GITHUB_ENV
